@@ -1,0 +1,37 @@
+== Free & For Sale
+
+* <b>Title:</b>  Free & For Sale        
+* <b>Team Members:</b> Michael Chen, Nhi Quach, Hubert Tsen, Jason Xie   
+* <b>Demo Link: </b> https://powerful-ocean-4315.herokuapp.com/ 
+* <b>Video Demo: </b> https://www.youtube.com/watch?v=r4m4QH4J8hE  
+* <b>Idea:</b> An application like the Berkeley Free and For Sale page. Users can make, edit, and delete postings and comment on other postings 
+
+
+= Models and Description 
+
+<b> User: </b> 
+* has name, email, address, and many comments and posts  
+* can edit and delete their own posts  
+
+<b> Post: </b>
+* has title, description, image, comments thread  
+* belongs to User, has many comments  
+
+<b> Comment: </b>
+* has text and belongs to a User and Post  
+
+ 
+<b> Features: </b> 
+* Users can log in and create posts  
+* Users can edit and delete posts  
+* Posts are filtered by location and tags  
+* Posts include images, title, description, and custom tags  
+* Posts include a link to email the post creator  
+* Users can comment on posts  
+
+
+<b> Division of Labor: </b>
+* Michael: Added geocoding functionality to filter posts  
+* Nhi: Create Posts and Users/Views  
+* Hubert: User abilities     
+* Jason: Commenting functionality  
